@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts (optional - we include them for convenience)
+# models/*.joblib
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Distribution
+dist/
+build/
+*.egg-info/
